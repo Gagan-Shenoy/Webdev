@@ -1,0 +1,20 @@
+
+.form,label,input{
+background-color: aqua;
+}
+legend
+{
+height:30px;    
+}
+fieldset{
+border: 1px solid #cecfd5;    
+border-radius: 6px;     
+padding:24px 30px;
+}
+
+button{
+background-color: yellow;
+width:100px;
+height:30px;
+border-width: 2px;
+}
