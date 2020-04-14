@@ -1,20 +1,56 @@
-
-.form,label,input{
-background-color: aqua;
+header
+{
+margin-left:140px;
+font-size:30px;
+color:#CC00FF;    
 }
 legend
 {
-height:30px;    
+font-size:25px;     
+color:#FF0099;    
 }
 fieldset{
-border: 1px solid #cecfd5;    
-border-radius: 6px;     
-padding:24px 30px;
+border: 1px solid black;    
+border-radius: 0px;
+border-color:#00FFFF;     
+height:320px;     
+width:700px;
+padding:10px 70px;
+margin-top:80px;
+background-color: transparent;
 }
-
-button{
-background-color: yellow;
-width:100px;
-height:30px;
+body
+{
+margin-left: 300px;
+background-image: url("bg.jpg");   
+background-repeat: no-repeat;
+background-size:  cover;   
+}
+input
+{
+height:35px;
+width:600px;
+font-size:20px;
+margin-bottom:20px;   
+background-color: transparent;
+border-color:     transparent;
+border-bottom-color: #CC00FF;   
+color: white;
+}
+section
+{
+display:block;    
+width:700px;
+height:500px;         
+}
+button
+{  
+background-color:transparent;    
+margin-top: 30px;     
+height:45px;
+width:200px;  
 border-width: 2px;
+border-color: #FF0099;  
+color:#FF0099;
+font-size:25px;     
 }
